@@ -9,7 +9,7 @@ python -m EasyLM.models.llama.llama_train_dpo \
     --update_llama_config='' \
     --load_dataset_state='' \
     --load_checkpoint='' \
-    --tokenizer.vocab_file='gs://hamishi-dev/easylm/llama/tokenizer.model' \
+    --tokenizer.vocab_file='llama2-tokenizer.model' \
     --optimizer.type='adamw' \
     --optimizer.adamw_optimizer.weight_decay=0.0 \
     --optimizer.adamw_optimizer.lr=1e-3 \

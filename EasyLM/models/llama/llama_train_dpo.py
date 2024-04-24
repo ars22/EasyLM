@@ -2,6 +2,9 @@
 Llama train script modified for DPO.
 WIP!!!
 '''
+from jax_smi import initialise_tracking
+initialise_tracking()
+
 import pprint
 import math
 import time
